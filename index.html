@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">	
+		<title>.: SIGAA :.</title>
+		<script src="node_modules/angular/angular.min.js"></script>		
+		<script type="text/javascript" src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	</head>
+	<body ng-app="sigaa" class="container">				
+		<div ng-include="'app/layout/header.html'"></div>
+
+		<div ui-view></div>
+		<!--Include config-->
+		<script src="app/config/app-module.js"></script>
+		<script src="app/config/app-config.js"></script>
+		<script src="app/config/app-route.js"></script>
+		<script src="app/config/app-constants.js"></script>
+		<!--End configd-->
+
+		<!--Student-->
+		<script src="app/student/student-controller.js"></script>
+		<script src="app/student/student-factory.js"></script>
+		<!--End Student-->
+
+		<!--Home-->
+		<script src="app/home/home-controller.js"></script>		
+		<!--End Home-->
+	</body>
+</html>

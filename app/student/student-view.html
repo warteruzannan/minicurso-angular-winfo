@@ -1,0 +1,14 @@
+<div>	
+	<table class="table table-striped">
+		<tr>
+			<th>Nome</th>
+			<th>Matrícula</th>
+			<th>Número de faltas</th>
+		</tr>
+		<tr ng-repeat="student in vm.listStudent">
+			<td>{{student.name}}</td>
+			<td>{{student.matricula}}</td>
+			<td>{{student.faltas}}</td>
+		</tr>
+	</table>	
+</div>

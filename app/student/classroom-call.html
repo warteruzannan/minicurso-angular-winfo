@@ -1,0 +1,17 @@
+<div>
+	<table class="table table-striped">
+		<tr>
+			<th>Nome</th>
+			<th>Matricula</th>
+			<th>Presente</th>
+			<th>Ausente</th>
+		</tr>
+		<tr ng-repeat="student in vm.listStudent">
+			<td>{{student.name}}</td>
+			<td>{{student.matricula}}</td>
+			<td><input type="radio" value="true" name="{{student.name}}" ng-model="student.present"></td>
+			<td><input type="radio" value="false" name="{{student.name}}" ng-model="student.present"></td>
+		</tr>
+	</table>
+	<button class="btn btn-primary btn-block" ng-click="vm.saveCall()">Salvar Chamada</button>
+</div>
