@@ -1,4 +1,4 @@
-# Minicurso AngularJS WINFO 2016
+# Minicurso AngularJS WINFO 2016 (Em atualização)
 Material utilizado no minicurso sobre AngularJS no WINFO 2016.
 
 # Material que pode ser útil no seu aprendizado sobre AngularJS.
